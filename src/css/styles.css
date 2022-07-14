@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/*scroll*/
+/* Tamaño del scroll */
+*::-webkit-scrollbar {
+  width: 1rem;
+}
+
+ /* Estilos barra (thumb) de scroll */
+*::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: .5rem;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+ /* Estilos track de scroll */
+*::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: .5rem;
+}
+
+*::-webkit-scrollbar-track:hover, 
+*::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
+
+
+
+:root {
+  /*colors*/
+  --indigo-color: #486DB7;
+  --pink-color: #F778B9;
+  --purples-color: #B378FF;
+  --footer-color: #265E6C;
+  --modal-bg: linear-gradient(125deg, rgba(38,94,108,1) 55%, rgba(255,255,255,1) 55%);
+
+  --grey-neutral-1: #F1F1F1; 
+  --grey-neutral-2:  #E4E4E4;
+  --grey-neutral-3:  #CACACA;
+  --grey-neutral-4:  #B1B1B1;
+  --grey-neutral-5:  #979797;
+  --grey-neutral-6:  #7D7D7D;
+  --grey-neutral-7:  #696969;
+  --grey-neutral-8:  #555555;
+  --grey-neutral-9:  #414141;
+  --grey-neutral-10:  #2D2D2D;
+  --grey-neutral-11:  #191919;
+
+  /*fonts*/
+  --font-source-pro: 'Source Sans Pro', sans-serif;
+  --font-merriweather: 'Merriweather', serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 85%);
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+li{
+  list-style: none
+}
+
+link{
+  text-decoration: none
+}
+
+button, input, textarea, select {
+  border: none;
+  outline: none;
+}
+
+/*.button__send {
+
+}
+.button__send:hover {
+  
+}
+
+.button__send--news {
+
+}
+
+.button__send--form {
+
+}*/

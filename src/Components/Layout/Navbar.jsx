@@ -17,7 +17,7 @@ const Navbar = () => {
         <button
           type="button"
           onClick={openSidebar}
-          className="wrapper__menu--btn"
+          className="wrapper__menu-btn"
         >
           {menuSidebar ? <Menu /> : null}
           <GiHamburgerMenu />
@@ -25,7 +25,7 @@ const Navbar = () => {
       </aside>
 
       <aside className="wrapper__logo">
-        <img className="wrapper__logo--img" src={logoImg} alt="logo-lmem" />
+        <img className="wrapper__logo-img" src={logoImg} alt="logo-lmem" />
       </aside>
 
       <aside className="wrapper__search">

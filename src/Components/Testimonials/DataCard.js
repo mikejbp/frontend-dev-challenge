@@ -1,39 +1,46 @@
+import shirley from '/images/shirley.webp'
+import theo from '/images/theo.webp'
+import daniel from '/images/daniel.webp'
+import bryan from '/images/bryan.webp'
+import cher from '/images/cher.webp'
+import dana from '/images/dana.webp'
+
 const data = [
   {
     id: 1,
-    name: "Miriam Brito",
-    image: '/images/shirley.png',
-    testimonial: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In architecto ab odit, cum atque maxime."
+    name: "Shirley B.",
+    image: shirley,
+    testimonial: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In architecto ab odit, cum atque maxime, amet consectetur adipisicing elit."
   },
   {
     id: 2,
-    name: "Miguel Briceño",
-    image: '/images/theo.png',
+    name: "Theo Magath",
+    image: theo,
     testimonial: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In architecto ab odit, cum atque maxime."
   },
   {
     id: 3,
-    name: "Jimena Salazar",
-    image: '/images/daniel.png',
-    testimonial: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In architecto ab odit, cum atque maxime."
+    name: "Daniel Hernández",
+    image: daniel,
+    testimonial: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In architecto ab odit, cum atque maxime. Lorem ipsum dolor sit, amet consectetur adipisicing elit."
   },
   {
     id: 4,
-    name: "Luis Romero",
-    image: '/images/bryan.jpg',
+    name: "Bryan Jimenez",
+    image: bryan,
     testimonial: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In architecto ab odit, cum atque maxime."
   },
   {
     id: 5,
-    name: "Samantha L",
-    image: '/images/cher.jpg',
-    testimonial: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In architecto ab odit, cum atque maxime."
+    name: "Cher T.",
+    image: cher,
+    testimonial: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In architecto ab odit, cum atque maxime. Lorem ipsum dolor sit, amet consectetur adipisicing elit."
   },
   {
     id: 6,
-    name: "Julian Marc",
-    image: '/images/daniel.png',
-    testimonial: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In architecto ab odit, cum atque maxime."
+    name: "Dana Ariza",
+    image: dana,
+    testimonial: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In architecto ab odit, cum atque maxime, amet consectetur adipisicing elit."
   },
 ]; 
   

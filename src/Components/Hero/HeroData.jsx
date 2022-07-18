@@ -20,7 +20,7 @@ const ImgSlider = ({ slides }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       currentImg === len - 1 ? setCurrentImg(0) : setCurrentImg(currentImg + 1)
-    }, 20000)
+    }, 3000)
     return () => clearInterval(interval)
   }, [currentImg])
 
@@ -62,9 +62,9 @@ const ImgSlider = ({ slides }) => {
               }
             >
               <HeroElements
-                text="Su viaje de"
-                span="salud emocional"
-                text1="empieza aquí"
+                text="La comunicación es"
+                span="muy importante,"
+                text1="no la dejes a un lado"
                 text2="Conoce a nuestros profesionales con licencia"
                 text3="Todos se someten a un proceso seguro de verificación y acreditación, además de adherirse a estrictos códigos de ética y confidencialidad."
               />
@@ -88,9 +88,9 @@ const ImgSlider = ({ slides }) => {
               }
             >
               <HeroElements
-                text="Su viaje de"
-                span="salud emocional"
-                text1="empieza aquí"
+                text="Somos lo que"
+                span="pensamos,"
+                text1="pensemos mejor"
                 text2="Conoce a nuestros profesionales con licencia"
                 text3="Todos se someten a un proceso seguro de verificación y acreditación, además de adherirse a estrictos códigos de ética y confidencialidad."
               />
@@ -101,9 +101,9 @@ const ImgSlider = ({ slides }) => {
               }
             >
               <HeroElements
-                text="Su viaje de"
-                span="salud emocional"
-                text1="empieza aquí"
+                text="Puedes contar con"
+                span="nosotros"
+                text1="cuando quieras"
                 text2="Conoce a nuestros profesionales con licencia"
                 text3="Todos se someten a un proceso seguro de verificación y acreditación, además de adherirse a estrictos códigos de ética y confidencialidad."
               />

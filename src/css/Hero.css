@@ -6,16 +6,15 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  background: #000;
 }
 
 .slider__inactive {
-  opacity: 0.9;
-  transition-duration: 0.5ms ease-in-out;
+  opacity: 0;
 }
 
 .slider__active {
   opacity: 1;
-  transition-duration: 0.5ms;
   overflow: hidden;
 }
 
@@ -23,7 +22,7 @@
   width: 100vw;
   height: 100vh;
   filter: brightness(50%);
-  transition: 1s;
+  transition: .5s;
   object-fit: cover;
   
 }
@@ -32,7 +31,6 @@
   transform: scale(1.2);
   margin: 1.1rem;
 }
-
 
 .slider__right-arrow {
   position: absolute;

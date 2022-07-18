@@ -11,7 +11,6 @@
 }
 
 .menu__wrapper {
-    transition: .5s;
   background-color: var(--grey-neutral-1);
   right: inherit;
   top: 0;

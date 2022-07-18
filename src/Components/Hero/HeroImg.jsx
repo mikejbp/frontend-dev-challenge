@@ -1,8 +1,8 @@
-import img1 from "/images/photo 01.jpg"
-import img2 from "/images/photo 02.jpg"
-import img3 from "/images/photo 03.jpg"
-import img4 from "/images/photo 04.jpg"
-import img5 from "/images/photo 05.jpg"
+import img1 from "/images/photo 01.webp"
+import img2 from "/images/photo 02.webp"
+import img3 from "/images/photo 03.webp"
+import img4 from "/images/photo 04.webp"
+import img5 from "/images/photo 05.webp"
 
 export const HeroImg = [
   {
